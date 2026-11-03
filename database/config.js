@@ -11,6 +11,8 @@ const base = {
     charset: 'utf8mb4',
     collate: 'utf8mb4_unicode_ci',
   },
+  seederStorage: 'sequelize',              // guarda qué seeders ya se ejecutaron
+  seederStorageTableName: 'SequelizeData', // en esta tabla (como SequelizeMeta para migrations)
 };
 
 module.exports = {
